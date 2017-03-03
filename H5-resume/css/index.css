@@ -1,0 +1,97 @@
+/*适配于小于750像素的窗口大小*/
+@media screen and (max-width: 750px){
+  body{
+    font-size: 16px;
+  }
+  .jl-header{
+    margin:0 15px;
+  }
+  .jl-main{
+    margin:0 15px;
+  }
+  .jl-introduce{
+    border-bottom: .15em dotted #84c1ff;
+  }
+}
+/*适配于大于1032像素的窗口大小*/
+@media screen and (min-width: 750px){
+  .jl-header{
+    margin:0 100px;
+  }
+  .jl-main{
+    margin:0 100px;
+  }
+  .jl-left,.jl-right{
+    width: 45%;
+    float:left;
+  }
+  .jl-left{
+    padding: 0 8% 0 1%;
+  }
+}
+body{
+  width: 100%;
+  margin: auto;
+}
+ul{
+  margin: .5em 0;
+}
+h1,h2,h3,h4,h5{
+  margin:0;
+  padding: 0;
+}
+.jl-header{
+  border-bottom: .2em solid #84C1FF;
+}
+.jl-header li:first-child{
+  width: 6em;
+  height: 6em;
+  background: url("http://www.qqjia.com/z/09/tu10292_20.jpg");
+  background-size: 100% 100%;
+  border-radius: 50px;
+}
+.jl-header li{
+  list-style: none;
+  margin: auto;
+  text-align: center;
+
+}
+.jl-name{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: .25em;
+}
+.bj-base{
+  font-size: .9em;
+}
+.jl-main h2{
+  color: #0092d4;
+  font-size: 0.9em;
+}
+.jl-basic,.jl-education{
+  padding: 1em 0 1em 0;
+  border-bottom: .15em dotted #84c1ff;
+}
+.jl-introduce,.jl-work{
+  padding: 1em 0 1em 0;
+}
+span{
+  font-weight: bold;
+  vertical-align: middle;
+}
+em{
+  font-size:.8em;
+  font-style: normal;
+  font-weight: bold;
+}
+em:after{
+  content: "";
+  padding-right: 1.5em;
+}
+.icon{
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  fill: currentColor;
+  overflow: hidden;
+}
