@@ -34,7 +34,7 @@ body{
   margin: auto;
 }
 .jl-header ul{
-  margin-left: 0;
+  padding: 0;
 }
 .jl-main ul{
   margin: .5em 0;
@@ -71,9 +71,8 @@ h1,h2,h3,h4,h5{
   color: #0092d4;
   font-size: 1.2em;
 }
-.jl-main h5{
-  font-size: 0.85em;
-  padding: .6em 0 0 1.5em;
+.jl-main h4{
+  padding: .6em 0 0 1.3em;
 }
 .jl-basic,.jl-education{
   padding: 1em 0 1em 0;
