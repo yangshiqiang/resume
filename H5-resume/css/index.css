@@ -1,5 +1,5 @@
 /*适配于小于750像素的窗口大小*/
-@media screen and (max-width: 925px){
+@media screen and (max-width: 750px){
   body{
     font-size: 16px;
   }
@@ -14,7 +14,7 @@
   }
 }
 /*适配于大于750像素的窗口大小*/
-@media screen and (min-width: 925px){
+@media screen and (min-width: 750px){
   .jl-header{
     margin:0 100px;
   }
@@ -33,7 +33,10 @@ body{
   width: 100%;
   margin: auto;
 }
-ul{
+.jl-header ul{
+  margin-left: 0;
+}
+.jl-main ul{
   margin: .5em 0;
 }
 h1,h2,h3,h4,h5{
@@ -64,9 +67,13 @@ h1,h2,h3,h4,h5{
 .bj-base{
   font-size: .9em;
 }
-.jl-main h2{
+.jl-main span{
   color: #0092d4;
-  font-size: 0.9em;
+  font-size: 1.2em;
+}
+.jl-main h5{
+  font-size: 0.85em;
+  padding: .6em 0 0 1.5em;
 }
 .jl-basic,.jl-education{
   padding: 1em 0 1em 0;
