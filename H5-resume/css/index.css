@@ -49,9 +49,9 @@ h1,h2,h3,h4,h5{
 .jl-header li:first-child{
   width: 6em;
   height: 6em;
-  background: url("http://www.qqjia.com/z/09/tu10292_20.jpg");
-  background-size: 100% 100%;
-  border-radius: 50px;
+  background: url(http://a1.qpic.cn/psb?/V12KkL9o2MoSfV/tg7NE726jlL0FXgIzRaikzJvXMqCoSyvfNd26ylm05o!/b/dAMAAAAAAAAA&bo=4AGAAuABgAIFACM!&rf=viewer_4);
+  background-size: 100%;
+  border-radius: 100px;
 }
 .jl-header li{
   list-style: none;
