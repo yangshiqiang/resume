@@ -16,10 +16,10 @@
 /*适配于大于750像素的窗口大小*/
 @media screen and (min-width: 750px){
   .jl-header{
-    margin:0 100px;
+    margin:0 200px;
   }
   .jl-main{
-    margin:0 100px;
+    margin:0 200px;
   }
   .jl-left,.jl-right{
     width: 45%;
